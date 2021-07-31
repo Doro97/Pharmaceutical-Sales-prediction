@@ -19,6 +19,16 @@ def prediction(StoreType ,Assortment,Date,IsHoliday,IsWeekend,IsPromo):
   else:
     StoreType=3
 
+  if Assortment=='a':
+    Assortment=0  
+  elif Assortment=='b':
+    Assortment=1
+  else:
+    Assortment=2
+
+  if StateHoliday=='0':
+    StateHoliday
+
   # Making predictions 
   prediction =decision_tree( 
         [[Sales]])
