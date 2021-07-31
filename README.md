@@ -6,6 +6,6 @@ Data and Features
 
 The data is in 3 files:store,test and train files
 
-This project uses the deep learning model,Long Short Term Model (LSTM) to predict sales
+This project uses the random forest regressor, decision tree, linear regression model and the deep learning model,Long Short Term Model (LSTM) to predict sales
 
 
